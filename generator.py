@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Fri Jan 15 15:39:07 2021
+""
 
-@author: Qing
+@author: Qing, Modified by Rushdi
 """
 
 import torch
