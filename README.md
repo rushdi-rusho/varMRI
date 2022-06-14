@@ -15,7 +15,7 @@ We propose to recover time aligned multi-slice (or pseudo-3D) dynamic image time
 1. In contrast to existing models, this method uses implicit motion relolved reconstruction strategy by exploiting the smoothness of the image time series on a manifold. Distant images that share same speech posture are mapped as neighbors on the manifold.  
 2. In contrast to current 2D dynamic speech MRI approaches that reconstructs slices independently, resulting in full vocal tract motion to be out of synchrony across slices, we propose to jointly recover all the slices as a time aligned multi-slice 2D (or pseudo-3D) dataset.  
 <img src="https://github.com/rushdi-rusho/variational_manifold_speech_MRI/blob/main/images/Video-2-2D-CS.gif" width=40% height=40%> Fig. 2: 2D temporal TV (asynchronous in time) 
-<img src="https://github.com/rushdi-rusho/variational_manifold_speech_MRI/blob/main/images/Video-1-pseudo3D.gif" width=40% height=40%> Fig. 3: Proposed variational manifold method (synchronized in time)
+<img src="https://github.com/rushdi-rusho/variational_manifold_speech_MRI/blob/main/images/Video-1-pseudo3D.gif" width=40% height=40%> Fig. 3: Proposed pseudo-3D method (synchronized in time)
 
 
 This ensures interpretation of full vocal tract organ motion in 3D, and allows for quantitative extraction of vocal tract area functions to characterize speech patterns.  
