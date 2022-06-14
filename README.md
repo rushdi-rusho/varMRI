@@ -14,8 +14,15 @@ We propose to recover time aligned multi-slice (or pseudo-3D) dynamic image time
 ### Main advantages of our method
 1. In contrast to existing models, this method uses implicit motion relolved reconstruction strategy by exploiting the smoothness of the image time series on a manifold. Distant images that share same speech posture are mapped as neighbors on the manifold.  
 2. In contrast to current 2D dynamic speech MRI approaches that reconstructs slices independently, resulting in full vocal tract motion to be out of synchrony across slices, we propose to jointly recover all the slices as a time aligned multi-slice 2D (or pseudo-3D) dataset. This ensures interpretation of full vocal tract organ motion in 3D, and allows for quantitative extraction of vocal tract area functions to characterize speech patterns.  
-3. In contrast to existing model-based  deep learning MRI reconstruction schemes that are reliant on fully sampled training datasets, our approach does not need to rely on training data, and reconstructs the image time series only from the measured under-sampled k-t data.
-### Output of speech MR reconstruction
+The output GIF is showing representative vocal tract area functions quantitating the vocal tract motion in 3D from a 10-slice time aligned reconstructions of speech task of uttering the repeated phrase 'za-na-za-loo-lee-laa' using our proposed method.  
+<img src="https://github.com/rushdi-rusho/variational_manifold_speech_MRI/blob/main/images/Vocal_area_function.gif" width=40% height=40%>
+3. In contrast to existing model-based  deep learning MRI reconstruction schemes that are reliant on fully sampled training datasets, our approach does not need to rely on training data, and reconstructs the image time series only from the measured under-sampled k-t data.  
+
+### Output of speech MR reconstruction  
+<img src="https://github.com/rushdi-rusho/variational_manifold_speech_MRI/blob/main/images/count1to5.gif" width=40% height=40%>  
+Figure: 5-slice time aligned reconstruction of the speech task: repetition of counting from 1 to 5 by subject 1.
+<img src="https://github.com/rushdi-rusho/variational_manifold_speech_MRI/blob/main/images/loo_lee_la.gif" width=40% height=40%>  
+Figure: 5-slice time aligned reconstruction of the speech task: repetition of the phrase 'za-na-za-loo-lee-laa' by subject 2.
 
 ### Dataset
 An open source speech MR dataset will be provided soon! 
