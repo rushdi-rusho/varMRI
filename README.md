@@ -26,9 +26,9 @@ The following output GIF is showing representative vocal tract area functions qu
 ### Output of speech MR reconstruction
 We reconstructed two different speech tasks from two different speakers at 18 ms temporal resolution:
 <img src="https://github.com/rushdi-rusho/variational_manifold_speech_MRI/blob/main/images/count1to5.gif" width=40% height=40%>  
-Figure: 5-slice time aligned reconstruction of the speech task: repetition of counting from 1 to 5 by subject 1. 
+Fig. 4: 5-slice time aligned reconstruction of the speech task: repetition of counting from 1 to 5 by subject 1. 
 <img src="https://github.com/rushdi-rusho/variational_manifold_speech_MRI/blob/main/images/loo_lee_la.gif" width=40% height=40%>  
-Figure: 5-slice time aligned reconstruction of the speech task: repetition of the phrase 'za-na-za-loo-lee-laa' by subject 2.  
+Fig. 5: 5-slice time aligned reconstruction of the speech task: repetition of the phrase 'za-na-za-loo-lee-laa' by subject 2.  
 
 ### Dataset
 An open source speech MR dataset will be provided soon! 
