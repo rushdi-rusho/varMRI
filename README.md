@@ -30,7 +30,7 @@ An open source speech MR dataset will be provided soon!
 
 ### How to run the code
 
-Ensure that all the dependencies of the requirement.txt are met. After that, specify the parametes and data path in the `Variational_manifold_code.ipynb` file and run it accordingly. Feel free to play with generator and latent vector configurations in the respective files.
+Ensure that all the dependencies of the `requirements.txt` are met. After that, specify the parametes and data path in the `Variational_manifold_code.ipynb` file and run it accordingly. Feel free to play with generator and latent vector configurations in the respective files.
 
 
 ###### Contact
