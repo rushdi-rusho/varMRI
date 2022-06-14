@@ -14,13 +14,15 @@ We propose to recover time aligned multi-slice (or pseudo-3D) dynamic image time
 ### Main advantages of our method
 1. In contrast to existing models, this method uses implicit motion relolved reconstruction strategy by exploiting the smoothness of the image time series on a manifold. Distant images that share same speech posture are mapped as neighbors on the manifold.  
 2. In contrast to current 2D dynamic speech MRI approaches that reconstructs slices independently, resulting in full vocal tract motion to be out of synchrony across slices, we propose to jointly recover all the slices as a time aligned multi-slice 2D (or pseudo-3D) dataset.  
-<img src="https://github.com/rushdi-rusho/variational_manifold_speech_MRI/blob/main/images/Video-2-2D-CS.gif" width=70% height=70%> Fig. 2: 2D temporal TV (asynchronous in time) 
-<img src="https://github.com/rushdi-rusho/variational_manifold_speech_MRI/blob/main/images/Video-1-pseudo3D.gif" width=70% height=70%> Fig. 3: Proposed pseudo-3D method (synchronized in time)
+<img src="https://github.com/rushdi-rusho/variational_manifold_speech_MRI/blob/main/images/Video-2-2D-CS.gif" width=70% height=70%>  
+Fig. 2: 2D temporal TV (asynchronous in time) 
+<img src="https://github.com/rushdi-rusho/variational_manifold_speech_MRI/blob/main/images/Video-1-pseudo3D.gif" width=70% height=70%>   
+Fig. 3: Proposed pseudo-3D method (synchronized in time)  
 
 
 This ensures interpretation of full vocal tract organ motion in 3D, and allows for quantitative extraction of vocal tract area functions to characterize speech patterns.  
 The following output GIF is showing representative vocal tract area functions quantitating the vocal tract motion in 3D from a 10-slice time aligned reconstructions of speech task of uttering the repeated phrase 'za-na-za-loo-lee-laa' using our proposed method. (Temporal resolution= 18 ms)  
-<img src="https://github.com/rushdi-rusho/variational_manifold_speech_MRI/blob/main/images/Vocal_area_function.gif" width=70% height=70%>  
+<img src="https://github.com/rushdi-rusho/variational_manifold_speech_MRI/blob/main/images/Vocal_area_function.gif" width=50% height=50%>  
 3. In contrast to existing model-based  deep learning MRI reconstruction schemes that are reliant on fully sampled training datasets, our approach does not need to rely on training data, and reconstructs the image time series only from the measured under-sampled k-t data.  
 
 ### Output of speech MR reconstruction
