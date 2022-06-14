@@ -22,15 +22,15 @@ Fig. 3: Proposed pseudo-3D method (synchronized in time)
 
 This ensures interpretation of full vocal tract organ motion in 3D, and allows for quantitative extraction of vocal tract area functions to characterize speech patterns.  
 The following output GIF is showing representative vocal tract area functions quantitating the vocal tract motion in 3D from a 10-slice time aligned reconstructions of speech task of uttering the repeated phrase 'za-na-za-loo-lee-laa' using our proposed method. (Temporal resolution= 18 ms)  
-<img src="https://github.com/rushdi-rusho/variational_manifold_speech_MRI/blob/main/images/Vocal_area_function.gif" width=50% height=50%>  
+<img src="https://github.com/rushdi-rusho/variational_manifold_speech_MRI/blob/main/images/Vocal_area_function.gif" width=55% height=55%>  
 3. In contrast to existing model-based  deep learning MRI reconstruction schemes that are reliant on fully sampled training datasets, our approach does not need to rely on training data, and reconstructs the image time series only from the measured under-sampled k-t data.  
 
 ### Output of speech MR reconstruction
-We reconstructed two different speech tasks from two different speakers at 18 ms temporal resolution:
+We reconstructed two different speech tasks from two different speakers at 18 ms temporal resolution:  
 <img src="https://github.com/rushdi-rusho/variational_manifold_speech_MRI/blob/main/images/count1to5.gif" width=70% height=70%>  
-Fig. 4: 5-slice time aligned reconstruction of the speech task: repetition of counting from 1 to 5 by subject 1. 
+Fig. 4: 5-slice time aligned reconstruction of the speech task: repetition of counting from 1 to 5 by subject 1.   
 <img src="https://github.com/rushdi-rusho/variational_manifold_speech_MRI/blob/main/images/loo_lee_la.gif" width=70% height=70%>  
-Fig. 5: 5-slice time aligned reconstruction of the speech task: repetition of the phrase 'za-na-za-loo-lee-laa' by subject 2.  
+Fig. 5: 5-slice time aligned reconstruction of the speech task: repetition of the phrase 'za-na-za-loo-lee-laa' by subject 2.    
 
 ### Dataset
 An open source speech MR dataset will be provided soon! 
