@@ -1,6 +1,8 @@
 ## Accelerated pseudo-3D dynamic speech MRI at 3T 
 Reference Paper: R. Z. Rusho, Q. Zou, W. Alam, S. Erattakulangara, M. Jacob and S. G. Lingala, "Accelerated pseudo 3D dynamic speech MR imaging at 3T using unsupervised deep variational manifold learning," accepted to MICCAI 2022.
 
+Relevant Paper: Qing Zou, Abdul Haseeb Ahmed, Prashant Nagpal, Sarv Priya, Rolf Schulte, Mathews Jacob, "Variational manifold learning from incomplete data: application to multislice dynamic mri," IEEE Transactions on Medical Imaging, in press (2022)
+
 Paper link: < will be uploaded soon! > 
  
 ### The framework of proposed pseudo-3D dynamic speech MRI
