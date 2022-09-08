@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-""
+#""
 
-@author: Qing, Modified by Rushdi
-"""
+#@author: Qing, Modified by Rushdi
+#"""
 
 import torch
 import torch.nn as nn
