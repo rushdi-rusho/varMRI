@@ -35,7 +35,7 @@ Fig. 4: 5-slice time aligned reconstruction of the speech task: repetition of co
 Fig. 5: 5-slice time aligned reconstruction of the speech task: repetition of the phrase 'za-na-za-loo-lee-laa' by subject 2.    
 
 ### Dataset
-An open source speech MR dataset will be provided soon! 
+An open source speech MR dataset has been published: https://doi.org/10.6084/m9.figshare.20468559.v1 
 
 ### File description
 `Variational_manifold_code.ipynb` : This is the main file to run the optimization.  
