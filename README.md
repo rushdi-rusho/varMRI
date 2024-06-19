@@ -4,8 +4,7 @@ Reference Paper:
 
 Paper link: [click here](https://doi.org/10.1007/978-3-031-16446-0_66)
 
-Relevant Paper: Qing Zou, Abdul Haseeb Ahmed, Prashant Nagpal, Sarv Priya, Rolf Schulte, Mathews Jacob, "Variational manifold learning from incomplete data: application to multislice dynamic mri," IEEE Transactions on Medical Imaging, in press (2022)
-
+Relevant Paper: Q. Zou, A. H. Ahmed, P. Nagpal, S. Priya, R. F. Schulte and M. Jacob, "Variational Manifold Learning From Incomplete Data: Application to Multislice Dynamic MRI," in IEEE Transactions on Medical Imaging, vol. 41, no. 12, pp. 3552-3561, Dec. 2022, doi: 10.1109/TMI.2022.3189905.
 
  
 ### The framework of proposed pseudo-3D dynamic speech MRI
